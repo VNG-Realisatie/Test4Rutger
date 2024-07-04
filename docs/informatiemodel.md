@@ -4,13 +4,6 @@ title: Informatiemodel Xxxxxx
 ---
 # Informatiemodel
 
-## Inhoudsopgave
-* [Basisterminologie](#basisterminologie)
-* [Gegevenswoordenboek](#gegevenswoordenboek)
-* [Conceptueel Model](#conceptueel-model)
-* [Logisch Model](#logisch-model)
-* [GEMMA bedrijfsobjecten](#gemma-bedrijfsobjecten)
-
 ## Basisterminologie
 
 [Naar boven](./informatiemodel)

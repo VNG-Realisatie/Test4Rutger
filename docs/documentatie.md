@@ -5,16 +5,6 @@ title: Documentatie Xxxxxx
 
 # Documentatie
 
-## Inhoudsopgave
-* [Algemeen](#algemeen)
-* [Uitgangspunten](#uitgangspunten)
-* [Cases](#cases)
-* [Besluiten](#besluiten)
-* [Aanbevelingen](#aanbevelingen)
-* [Vraagstukken](#vraagstukken)
-
-[Dit bevat (een link naar) alle aanvullende documentatie. Documentatie dus die geen onderdeel uitmaakt van de API-specificatie.]
-
 ## Algemeen
 
 [Naar boven](./documentatie)
