@@ -1,13 +1,7 @@
----
-layout: page-with-side-nav
-title: Documentatie Xxxxxx
----
 
 # Documentatie
 
 ## Algemeen
-
-[Naar boven](./documentatie)
 
 [Overzicht waarin aangegeven wordt welke API-specificatie documentatie aanwezig is, hoe deze opgezet is en zaken zoals onderlinge samenhang. 
  In het geval van de vorm en structuur van documentatie-artefacten kan bijv. gebruik gemaakt worden van coderingen. 
@@ -15,28 +9,17 @@ title: Documentatie Xxxxxx
 
 ## Uitgangspunten
 
-[Naar boven](./documentatie)
-
 
 ## Cases
-
-[Naar boven](./documentatie)
 
 
 ## Besluiten
 
-[Naar boven](./documentatie)
-
 
 ## Aanbevelingen
 
-[Naar boven](./documentatie)
-
 
 ## Vraagstukken
-
-[Naar boven](./documentatie)
-
 
 
   

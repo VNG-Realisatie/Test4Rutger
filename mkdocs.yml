@@ -14,7 +14,7 @@ theme:
   font:
     text: Figtree
   language: nl
-  logo: assets/img/logo.svg
+  logo: assets/img/logo_alt.svg
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -54,4 +54,5 @@ plugins:
   - search
   
 extra_css:
+  - assets/css/identity.css
   - assets/css/mkdocsoad.css

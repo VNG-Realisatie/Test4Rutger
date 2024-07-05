@@ -1,7 +1,3 @@
----
-layout: page-with-side-nav
-title: Contact Xxxxxx
----
 
 # Contact
 
@@ -9,7 +5,7 @@ title: Contact Xxxxxx
   [Maak een bug issue aan >>](https://github.com/VNG-Realisatie/xxxxxxx/issues/new?assignees=&labels=bug&template=bug_report.md&title=)
 * Verbeteringen doorgeven
   [Maak een verbeter issue aan >>](https://github.com/VNG-Realisatie/xxxxxxx/issues/new?assignees=&labels=enhancement&template=enhancement.md&title=)
-* Community: Wil je geïnformeerd blijven over productwijzigingen of meepraten over de API meld je dan aan bij de community<br/>[Ga naar de community >>](xxxxxxx)
+* Community: Wil je geïnformeerd blijven over productwijzigingen of meepraten over de API meld je dan aan bij de community<br/>[Ga naar de community >>](https://github.com/)
 
 
 * Regiseur API's: xxxx xxxxxx
