@@ -1,0 +1,106 @@
+{
+  "consumer": {
+    "name": "ProductConsumer"
+  },
+  "provider": {
+    "name": "ProductProvider"
+  },
+  "interactions": [
+    {
+      "description": "a request for all products",
+      "providerState": "products exist",
+      "request": {
+        "method": "get",
+        "path": "/products"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": [
+          {
+            "id": 1,
+            "name": "Product 1",
+            "description": "Description 1",
+            "price": 10.0
+          },
+          {
+            "id": 2,
+            "name": "Product 2",
+            "description": "Description 2",
+            "price": 20.0
+          }
+        ]
+      }
+    },
+    {
+      "description": "a request to create a new product",
+      "providerState": "the API is ready to create a new product",
+      "request": {
+        "method": "post",
+        "path": "/products",
+        "body": {
+          "name": "New Product",
+          "description": "A brand new product",
+          "price": 15.0
+        }
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+        },
+        "body": {
+          "id": 123,
+          "name": "New Product",
+          "description": "A brand new product",
+          "price": 15.0
+        },
+        "matchingRules": {
+          "$.body.name": {
+            "match": "type"
+          },
+          "$.body.price": {
+            "match": "type"
+          }
+        }
+      }
+    },
+    {
+      "description": "a request for product with id 1",
+      "providerState": "a product with id 1 exists",
+      "request": {
+        "method": "get",
+        "path": "/products/1"
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+        },
+        "body": {
+          "id": 1,
+          "name": "Product 1",
+          "description": "Description 1",
+          "price": 10.0
+        }
+      }
+    },
+    {
+      "description": "a request for product with id string_identifier",
+      "providerState": "a product with id string_identifier does not exist",
+      "request": {
+        "method": "get",
+        "path": "/products/string_identifier"
+      },
+      "response": {
+        "status": 404,
+        "headers": {
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}

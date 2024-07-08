@@ -1,4 +1,16 @@
 
+# Editor temporaries
+*~
+*.bak
+.*.swp
+*.kate-swp
+*.autosave
+*.Rhistory
+.directory
+
+# Python compiled objects
+*.pyc
+
 # Environments
 env/
 node_modules/
