@@ -16,5 +16,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           #CUSTOM_DOMAIN: optionaldomain.com
           CONFIG_FILE: mkdocs.yml
-          EXTRA_PACKAGES: build-base ethtool
+          EXTRA_PACKAGES: build-base gcc python3-dev musl-dev linux-headers
           REQUIREMENTS: requirements.txt
