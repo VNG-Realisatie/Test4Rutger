@@ -1,0 +1,81 @@
+openapi: 3.0.0
+info:
+  title: Product API
+  version: 1.0.0
+  description: A simple API for managing products
+
+paths:
+  /products:
+    get:
+      summary: List all products
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:    
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Product'
+    post:
+      summary: Create a new product
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProductInput'
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:    
+              schema:
+                $ref: '#/components/schemas/Product'
+
+  /products/{productId}:
+    get:
+      summary: Get a product by ID
+      parameters:
+        - name: productId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:    
+              schema:
+                $ref: '#/components/schemas/Product'
+        '404':
+          description: Product not found
+
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+          format: float
+    ProductInput:
+      type: object
+      properties:
+        name:
+          type: string
+        description:
+          type: string
+        price:
+          type: number
+          format: float
+      required:
+        - name
+        - price
