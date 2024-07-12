@@ -52,6 +52,18 @@ plugins:
   - neoteroi.mkdocsoad:
       use_pymdownx: true
   - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/VNG-Realisatie
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/u/vngr
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/VNGRealisatie
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/vng-realisatie/  
+  
   
 extra_css:
   - assets/css/identity.css
