@@ -17,3 +17,25 @@ De op die wijze gecreëerde kopie bevat een standaard content en structuur die d
   * configureren van het '_config.yml' bestand.
   * Tevens kan de repository dan direct of op een later tijdstip worden geconfigureerd voor het genereren van een GitHub Pages site.
   * **LET OP!** Vergeet niet de repository toe te voegen aan het 'gh-pages-rebuild.yml' script in de repo van het gerelateerde Jekyll theme.
+
+  
+## Documentatie bewerken met een live preview
+
+Deze repository maakt gebruik van Material for MkDocs voor de documentatie. Hiermee is het mogelijk om lokaal met een live preview aan de documentatie te werken.
+
+Installatie op een GNU/Linux-systeem kan met
+
+```
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+Als de installatie gedaan is, maakt
+
+```
+source env/bin/activate
+mkdocs serve
+```
+de site beschikbaar op `localhost:8000`.
+
