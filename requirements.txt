@@ -1,5 +1,5 @@
 hypothesis
-pact-python
+pactman
 pytest
 requests
 
