@@ -1,4 +1,7 @@
 
+# Cache directories
+.cache/
+
 # Editor temporaries
 *~
 *.bak
