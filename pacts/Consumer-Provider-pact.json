@@ -1,0 +1,43 @@
+{
+  "consumer": {
+    "name": "Consumer"
+  },
+  "provider": {
+    "name": "Provider"
+  },
+  "interactions": [
+    {
+      "providerStates": [
+        {
+          "name": "UserA exists and is not an administrator",
+          "params": {}
+        }
+      ],
+      "description": "a request for UserA",
+      "request": {
+        "method": "get",
+        "path": "/users",
+        "query": {
+          "username": [
+            "userA"
+          ]
+        }
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "username": "UserA",
+          "id": 123,
+          "groups": [
+            "Editors"
+          ]
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "3.0.0"
+    }
+  }
+}
