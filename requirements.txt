@@ -3,6 +3,7 @@ pactman
 pytest
 requests
 
+mike
 mkdocs-awesome-pages-plugin
 mkdocs-material
 mkdocs-mermaid2-plugin
