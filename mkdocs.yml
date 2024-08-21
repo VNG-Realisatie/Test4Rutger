@@ -63,7 +63,8 @@ extra:
       link: https://x.com/VNGRealisatie
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/company/vng-realisatie/  
-  
+  version:
+    provider: mike
   
 extra_css:
   - assets/css/identity.css
