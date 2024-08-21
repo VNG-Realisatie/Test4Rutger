@@ -17,3 +17,7 @@
 # Environments
 env/
 node_modules/
+
+# Build products
+site/
+
