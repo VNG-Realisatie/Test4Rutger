@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.${GITHUB_DOMAIN:-"github.com"}"
-          git fetch origin gh-pages:gh-pages
+          git fetch origin gh-pages:gh-pages --depth=1
           
       - name: Deploy documentation
         run: |
