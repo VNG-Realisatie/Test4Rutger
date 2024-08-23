@@ -65,6 +65,7 @@ extra:
       link: https://www.linkedin.com/company/vng-realisatie/  
   version:
     provider: mike
+    alias: true
   
 extra_css:
   - assets/css/identity.css
